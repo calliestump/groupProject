@@ -1,6 +1,36 @@
-.Jumbotron {
+body{
+  background-color:aliceblue;
+}
+.mainPageJum {
+  border-radius: 13px;
   text-align: center;
-  background-color: red;
+  background-color: lightskyblue;
   margin: 30px;
-  color: aliceblue;
+  color: black;
+  padding: 13px;
+}
+.projectJum {
+  /*
+  background-image: url("/img/cal.jpg");
+  background-size: cover;
+  height: 100%;
+  */
+  border-radius: 13px;
+  text-align: center;
+  background-color: gainsboro;
+  margin: 10px;
+  color:black;
+  padding: 13px;
+}
+
+#under-18, #legal {
+  display: none;
+}
+
+.btn {
+  display: block;
+}
+
+#picture {
+  display:none;
 }
